@@ -1,0 +1,6 @@
+.App {
+  background: url("assets/background.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}

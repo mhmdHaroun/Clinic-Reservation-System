@@ -1,0 +1,55 @@
+.clinicDash {
+  text-align: center;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.btn-1 {
+  margin-right: 10px;
+}
+table {
+  margin-left: 20px;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(60, 112, 158);
+}
+
+.tableBtnDelete {
+  background: url("../assets/bin.png") center center no-repeat;
+  background-size: cover;
+}
+
+.tableBtnModify {
+  background: url("../assets/modify.png") center center no-repeat;
+  background-size: cover;
+}
+
+.tableBtns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.activeNumber {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.div-1 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
